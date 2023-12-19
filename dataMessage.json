@@ -1,0 +1,72 @@
+[
+  {
+    "model": "catalog.feedback",
+    "pk": 13,
+    "fields": {
+      "name": "Anna",
+      "email": "anna@gmail.com",
+      "message": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.feedback",
+    "pk": 14,
+    "fields": {
+      "name": "Bob",
+      "email": "bob@gmail.com",
+      "message": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.feedback",
+    "pk": 15,
+    "fields": {
+      "name": "Cerol",
+      "email": "cerol@gmail.com",
+      "message": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.feedback",
+    "pk": 16,
+    "fields": {
+      "name": "Diana",
+      "email": "diana@gmail.com",
+      "message": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.feedback",
+    "pk": 17,
+    "fields": {
+      "name": "Igor",
+      "email": "igor@gmail.com",
+      "message": "",
+      "is_active": false
+    }
+  },
+  {
+    "model": "catalog.feedback",
+    "pk": 18,
+    "fields": {
+      "name": "Frosya",
+      "email": "frosya@gmail.com",
+      "message": "",
+      "is_active": false
+    }
+  },
+  {
+    "model": "catalog.feedback",
+    "pk": 19,
+    "fields": {
+      "name": "God",
+      "email": "god@gmail.com",
+      "message": "",
+      "is_active": false
+    }
+  }
+]

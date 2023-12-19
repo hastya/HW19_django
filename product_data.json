@@ -1,0 +1,30 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "Small Idea",
+      "product_descr": "Small Idea 1",
+      "product_img": "",
+      "product_category": "Small",
+      "product_price_each": "50",
+      "product_date_create": "2023-12-19T20:41:26.726Z",
+      "product_date_last": "2023-12-19T20:41:23Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "Medium idea",
+      "product_descr": "Medium idea 1",
+      "product_img": "",
+      "product_category": "Medium",
+      "product_price_each": "100",
+      "product_date_create": "2023-12-19T20:42:00.411Z",
+      "product_date_last": "2023-12-19T20:41:58Z",
+      "is_active": true
+    }
+  }
+]
