@@ -77,8 +77,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'hw19_django',
+        'USER': 'postgres',
+        'PASSWORD': 'sql',
+        'HOST': '127.0.0.1',
+        'PORT': 5432
     }
 }
 
@@ -127,5 +133,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     # Здесь вы можете добавить пути к вашим статическим файлам,
     # если они располагаются вне приложений
-    BASE_DIR / 'static'
+    BASE_DIR / 'catalog/static'
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
